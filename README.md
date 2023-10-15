@@ -43,8 +43,14 @@ used nodeport instead of loadbalancer to have external ip.
 
 Deployed the Pulumi stack on the Kubernetes cluster and verify that it's running correctly.
 
+
+
 ### 6. Serve HTML Web Page
 
 Configured the Nginx server to serve a static HTML webpage.
 Access the webpage using port forwarding locally or by minikube ip:nodeport ip
+kubectl port-forward svc/nginxweb-b37dce79 8080:80
+
+
+## Troubleshooting
 
