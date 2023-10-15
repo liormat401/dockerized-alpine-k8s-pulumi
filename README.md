@@ -15,6 +15,8 @@ The goal of this project is to create a Dockerfile based on Alpine Linux with an
 
 ### 1. Setting up the enviroment
 
+Install:
+
 - Kubernetes cluster,Minikube 
 - Docker cli
 - kubectl
