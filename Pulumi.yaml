@@ -1,0 +1,6 @@
+name: mitiga_project
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: k8s nginx 4 pods
